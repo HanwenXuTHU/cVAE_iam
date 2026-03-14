@@ -26,8 +26,8 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 BATCH_SIZE = 32
 HIDDEN_DIM = 256
 LATENT_DIM = 64
-EPOCHS = 50
-LEARNING_RATE = 1e-4
+EPOCHS = 150
+LEARNING_RATE = 1e-3
 
 
 def read_model_fingerprints():

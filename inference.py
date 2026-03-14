@@ -11,7 +11,7 @@ from scipy.stats import pearsonr, spearmanr
 from openai import OpenAI
 
 
-CONDITION_MODE = 1 # 1 for model_name + scenario_name + region, 2 for model_fingerprints + scenario_desc + region
+CONDITION_MODE = 2 # 1 for model_name + scenario_name + region, 2 for model_fingerprints + scenario_desc + region
 TRAINING_PATH = "/home/xuhw/others/cVAE_iam/data/scenario_desc_all_with_model_family_eff100_to_nan_remaining_drop_all_holdouts.xlsx"
 DEV_PATH = "/home/xuhw/others/cVAE_iam/data/scenario_desc_all_with_model_family_eff100_to_nan_val_ground_truth.xlsx"
 TEST_PATH = "/home/xuhw/others/cVAE_iam/data/scenario_desc_all_with_model_family_eff100_to_nan_test_ground_truth.xlsx"
