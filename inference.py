@@ -5,8 +5,10 @@ import pandas as pd
 import numpy as np
 import torch
 import torch.nn as nn
+from tqdm import tqdm
 from torch.utils.data import Dataset, DataLoader
 from scipy.stats import pearsonr, spearmanr
+from openai import OpenAI
 
 
 CONDITION_MODE = 1 # 1 for model_name + scenario_name + region, 2 for model_fingerprints + scenario_desc + region
