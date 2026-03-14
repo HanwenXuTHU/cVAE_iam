@@ -1,0 +1,25 @@
+# Ignore local data cache directories and model checkpoints
+data/cache/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IPython Notebooks
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# MacOS files
+.DS_Store
+data/cache/
+data/cache/
+*.pkl
+data/cache/
+*.pkl
+*holdouts.json
