@@ -14,7 +14,7 @@ from openai import OpenAI
 from tqdm import tqdm
 
 
-CONDITION_MODE = 1 # 1 for model_name + scenario_name + region, 2 for model_fingerprints + scenario_desc + region
+CONDITION_MODE = 2 # 1 for model_name + scenario_name + region, 2 for model_fingerprints + scenario_desc + region
 TRAINING_PATH = "/home/xuhw/others/cVAE_iam/data/scenario_desc_all_with_model_family_eff100_to_nan_remaining_drop_all_holdouts.xlsx"
 DEV_PATH = "/home/xuhw/others/cVAE_iam/data/scenario_desc_all_with_model_family_eff100_to_nan_val_ground_truth.xlsx"
 TEST_PATH = "/home/xuhw/others/cVAE_iam/data/scenario_desc_all_with_model_family_eff100_to_nan_test_ground_truth.xlsx"
@@ -27,7 +27,7 @@ BATCH_SIZE = 32
 HIDDEN_DIM = 256
 LATENT_DIM = 64
 EPOCHS = 50
-LEARNING_RATE = 1e-3
+LEARNING_RATE = 1e-4
 
 
 def read_model_fingerprints():

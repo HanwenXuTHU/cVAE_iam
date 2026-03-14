@@ -1,0 +1,9 @@
+{
+    "batch_size": 32,
+    "hidden_dim": 256,
+    "latent_dim": 64,
+    "learning_rate": 0.0001,
+    "epochs": 50,
+    "condition_mode": 2,
+    "model_fingerprints_path": "/home/xuhw/others/cVAE_iam/data/model_fingerprint.xlsx"
+}

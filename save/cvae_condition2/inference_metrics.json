@@ -1,0 +1,202 @@
+{
+    "overall": {
+        "mae": 5.396721363067627,
+        "rmse": 12.239986419677734,
+        "smape_%": 130.61249256134033,
+        "pearson": 0.31962217418726396,
+        "spearman": 0.36107613973263836,
+        "c_category_accuracy": 0.539622641509434
+    },
+    "Efficiency|Electricity|Biomass|w/ CCS": {
+        "mae": 21.559017181396484,
+        "rmse": 23.97297477722168,
+        "smape_%": 130.92844486236572,
+        "pearson": 0.3386464623698948,
+        "spearman": 0.3900535884400642,
+        "c_category_accuracy": null
+    },
+    "Efficiency|Electricity|Biomass|w/o CCS": {
+        "mae": 24.72812271118164,
+        "rmse": 26.754657745361328,
+        "smape_%": 114.88536596298218,
+        "pearson": 0.1659318131907717,
+        "spearman": 0.13060977287116252,
+        "c_category_accuracy": null
+    },
+    "Efficiency|Electricity|Coal|w/ CCS": {
+        "mae": 24.21863555908203,
+        "rmse": 26.61220359802246,
+        "smape_%": 131.75780773162842,
+        "pearson": 0.31362122087781136,
+        "spearman": 0.35814911485527184,
+        "c_category_accuracy": null
+    },
+    "Efficiency|Electricity|Coal|w/o CCS": {
+        "mae": 29.101314544677734,
+        "rmse": 30.81221580505371,
+        "smape_%": 116.57055616378784,
+        "pearson": 0.30460380083585664,
+        "spearman": 0.4448670588795563,
+        "c_category_accuracy": null
+    },
+    "Efficiency|Electricity|Gas|w/ CCS": {
+        "mae": 34.316898345947266,
+        "rmse": 37.770748138427734,
+        "smape_%": 129.62709665298462,
+        "pearson": 0.3435158938524425,
+        "spearman": 0.47075583019022454,
+        "c_category_accuracy": null
+    },
+    "Efficiency|Electricity|Gas|w/o CCS": {
+        "mae": 35.09849166870117,
+        "rmse": 38.3309211730957,
+        "smape_%": 118.52298974990845,
+        "pearson": 0.15308421636526062,
+        "spearman": 0.14285332923645172,
+        "c_category_accuracy": null
+    },
+    "Secondary Energy|Electricity": {
+        "mae": 11.45143985748291,
+        "rmse": 16.121551513671875,
+        "smape_%": 53.79825234413147,
+        "pearson": 0.5925882372493685,
+        "spearman": 0.6498707846215601,
+        "c_category_accuracy": null
+    },
+    "Secondary Energy|Electricity|Biomass": {
+        "mae": 0.7475436925888062,
+        "rmse": 1.353094220161438,
+        "smape_%": 118.34189891815186,
+        "pearson": 0.3292416634467135,
+        "spearman": 0.36144330801628877,
+        "c_category_accuracy": null
+    },
+    "Secondary Energy|Electricity|Biomass|w/ CCS": {
+        "mae": 0.6542235612869263,
+        "rmse": 1.2647216320037842,
+        "smape_%": 158.66111516952515,
+        "pearson": 0.3162044255914209,
+        "spearman": 0.4719731110046113,
+        "c_category_accuracy": null
+    },
+    "Secondary Energy|Electricity|Biomass|w/o CCS": {
+        "mae": 0.2500469386577606,
+        "rmse": 0.42538127303123474,
+        "smape_%": 141.32109880447388,
+        "pearson": 0.2879388182380474,
+        "spearman": 0.3168317086741721,
+        "c_category_accuracy": null
+    },
+    "Secondary Energy|Electricity|Coal": {
+        "mae": 1.8087031841278076,
+        "rmse": 2.863142251968384,
+        "smape_%": 150.8183240890503,
+        "pearson": 0.2788740989113004,
+        "spearman": 0.33080927285181144,
+        "c_category_accuracy": null
+    },
+    "Secondary Energy|Electricity|Coal|w/ CCS": {
+        "mae": 0.4187816083431244,
+        "rmse": 0.8919501304626465,
+        "smape_%": 184.02094841003418,
+        "pearson": 0.1234622969741082,
+        "spearman": 0.18537252906100246,
+        "c_category_accuracy": null
+    },
+    "Secondary Energy|Electricity|Coal|w/o CCS": {
+        "mae": 1.6376094818115234,
+        "rmse": 2.660210371017456,
+        "smape_%": 161.3816738128662,
+        "pearson": 0.3431607168810623,
+        "spearman": 0.3991834027618502,
+        "c_category_accuracy": null
+    },
+    "Secondary Energy|Electricity|Gas": {
+        "mae": 2.0733730792999268,
+        "rmse": 3.409031391143799,
+        "smape_%": 100.86953639984131,
+        "pearson": 0.20305802292345307,
+        "spearman": 0.23972667255585575,
+        "c_category_accuracy": null
+    },
+    "Secondary Energy|Electricity|Gas|w/ CCS": {
+        "mae": 1.0966229438781738,
+        "rmse": 2.4215574264526367,
+        "smape_%": 167.61256456375122,
+        "pearson": 0.2064333418651473,
+        "spearman": 0.24788241192116955,
+        "c_category_accuracy": null
+    },
+    "Secondary Energy|Electricity|Gas|w/o CCS": {
+        "mae": 1.527829647064209,
+        "rmse": 2.543748378753662,
+        "smape_%": 119.03716325759888,
+        "pearson": 0.2863772459476517,
+        "spearman": 0.41830530673386007,
+        "c_category_accuracy": null
+    },
+    "Secondary Energy|Electricity|Geothermal": {
+        "mae": 0.1532185673713684,
+        "rmse": 0.2534210979938507,
+        "smape_%": 137.41304874420166,
+        "pearson": 0.34260763449173604,
+        "spearman": 0.25779887807532303,
+        "c_category_accuracy": null
+    },
+    "Secondary Energy|Electricity|Hydro": {
+        "mae": 1.5975173711776733,
+        "rmse": 2.327332019805908,
+        "smape_%": 69.53573822975159,
+        "pearson": 0.40086679952460913,
+        "spearman": 0.47761510495461995,
+        "c_category_accuracy": null
+    },
+    "Secondary Energy|Electricity|Nuclear": {
+        "mae": 1.9034600257873535,
+        "rmse": 3.2705740928649902,
+        "smape_%": 113.50303888320923,
+        "pearson": 0.34963890409210047,
+        "spearman": 0.31021989771578523,
+        "c_category_accuracy": null
+    },
+    "Secondary Energy|Electricity|Oil": {
+        "mae": 0.17284943163394928,
+        "rmse": 0.2770434021949768,
+        "smape_%": 159.61475372314453,
+        "pearson": 0.4166905208856496,
+        "spearman": 0.30707808329281505,
+        "c_category_accuracy": null
+    },
+    "Secondary Energy|Electricity|Oil|w/ CCS": {
+        "mae": 0.08964994549751282,
+        "rmse": 0.13174019753932953,
+        "smape_%": 197.5345253944397,
+        "pearson": -0.024919060195051832,
+        "spearman": -0.04059527286423836,
+        "c_category_accuracy": null
+    },
+    "Secondary Energy|Electricity|Oil|w/o CCS": {
+        "mae": 0.1513468325138092,
+        "rmse": 0.2528799772262573,
+        "smape_%": 161.62034273147583,
+        "pearson": 0.4766665644281023,
+        "spearman": 0.30854254186072644,
+        "c_category_accuracy": null
+    },
+    "Secondary Energy|Electricity|Solar": {
+        "mae": 4.192958354949951,
+        "rmse": 7.562631607055664,
+        "smape_%": 86.94363832473755,
+        "pearson": 0.5778254919645655,
+        "spearman": 0.755670446509375,
+        "c_category_accuracy": null
+    },
+    "Secondary Energy|Electricity|Wind": {
+        "mae": 5.143218040466309,
+        "rmse": 8.351066589355469,
+        "smape_%": 86.9594931602478,
+        "pearson": 0.5448130497823134,
+        "spearman": 0.7308104713640028,
+        "c_category_accuracy": null
+    }
+}
