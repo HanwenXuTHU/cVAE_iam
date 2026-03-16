@@ -19,7 +19,7 @@ TRAINING_PATH = "/home/xuhw/others/cVAE_iam/data/scenario_desc_all_with_model_fa
 DEV_PATH = "/home/xuhw/others/cVAE_iam/data/scenario_desc_all_with_model_family_eff100_to_nan_val_ground_truth.xlsx"
 TEST_PATH = "/home/xuhw/others/cVAE_iam/data/scenario_desc_all_with_model_family_eff100_to_nan_test_ground_truth.xlsx"
 MODEL_FINGERPRINTS_PATH = "/home/xuhw/others/cVAE_iam/data/model_fingerprint.xlsx"
-SAVE_DIR = "/home/xuhw/others/cVAE_iam/save/cvae_condition{}".format(CONDITION_MODE)
+SAVE_DIR = "/home/xuhw/others/cVAE_iam/save/cvae_lr2e-3_condition_{}".format(CONDITION_MODE)
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Training Hyperparameters
@@ -27,7 +27,7 @@ BATCH_SIZE = 32
 HIDDEN_DIM = 256
 LATENT_DIM = 64
 EPOCHS = 150
-LEARNING_RATE = 1e-3
+LEARNING_RATE = 2e-3
 
 
 def read_model_fingerprints():
